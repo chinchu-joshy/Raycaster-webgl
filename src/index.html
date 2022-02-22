@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ThreeJS Starter</title>
+    <style>
+        .content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+        .content h1{
+            color: rgb(228, 35, 35);
+        }
+    </style>
 </head>
 <body>
+    <!-- <div class="content">
+        <h1>
+            RAYCASTING SAMPLE
+        </h1>
+    </div> -->
     <canvas class="webgl"></canvas>
+    <script src="../js/three.js"></script>
+    <script type="module" src="../src/drag.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.122.0/examples/js/controls/OrbitControls.min.js"></script>
 </body>
 </html>
